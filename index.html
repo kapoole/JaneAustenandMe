@@ -20,8 +20,20 @@
 
 <body>
   
-    <button onclick="readData()">Data Check</button>
-    <button onclick="generateLineFromTrigram(['passed', 'away'])">Generate Line</button>
+    <!-- <button onclick="readData()">Data Check</button>
+    <button onclick="generateLineFromTrigram(['passed', 'away'])">Generate Line</button> -->
+
+    <h1><span class="jane">Jane Austen</span>and <span class="me">Me</span></h1>
+    <h3>Write a story, line by line, with Jane Austen</h3>
+
+    <div id="text-cont">
+        <div class="text"><span class="jane">Jane Austen</span> Hi and thanks for writing with me. I'll let you get the first line.</div>
+    </div>
+
+    <div id="form-cont">
+            <input type="text" id="meInput" name="meInput" placeholder="Enter the next line of the story">
+            <input type="submit" value="Submit" onclick="generateLine(document.getElementById('meInput').value)">
+    </div>
 
 
 </body>

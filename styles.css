@@ -1,0 +1,88 @@
+body {
+    margin-top: 50px;
+    font-size: 1em;;
+}
+
+#text-cont{
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    margin: auto;
+
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.jane {
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.me {
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#form-cont {
+    display: flex;
+    flex-direction: row;
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 90px;
+    background-color: tomato;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #DD553D;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  h3{
+      text-align: center;
+      width: 30%;
+      margin: auto;
+      margin-bottom: 50px;
+      border-bottom: black 3px solid;
+  }
+  
+  #dividor {
+      text-align: center;
+      width: 60%;
+      border-top: black 3px solid;
+  }
